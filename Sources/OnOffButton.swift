@@ -53,7 +53,7 @@ open class OnOffButton: UIButton {
 
     // MARK: Initialization
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         updateProperties()
     }
