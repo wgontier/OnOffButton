@@ -25,7 +25,7 @@ open class OnOffButton: UIButton {
 
     // MARK: Variables
 
-    open var checked: Bool = true {
+    @IBInspectable open var checked: Bool = true {
         didSet {
             var strokeStart = CABasicAnimation()
             var strokeEnd = CABasicAnimation()
